@@ -2,6 +2,7 @@ import google.generativeai as genai
 from youtube_transcript_api import YouTubeTranscriptApi as ytapi
 import os
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -37,6 +38,15 @@ def summarize(url):
     summary = summary_model.generate_content(f"{smprompt}\n{ts}").text
     return summary
 
+origins = ["*"]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/")
 async def derail():
