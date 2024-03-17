@@ -6,7 +6,7 @@ TLDW Tool is a web app that uses Generative AI to generate concise, to-the-point
 
 NOTE - The YouTube URL must be of the format `https://www.youtube.com/watch?v={video-id}`
 
-Since the [TLDW API](https://tldw-tool.onrender.com) has been deployed on [Render](https://render.com/) as a Free Tier Web Service, the cold start might cause a delay in loading of the summary for the first use. Once the API becomes active, the summaries henceforth won't take as much long.
+Since the [TLDW API](https://tldw-tool.onrender.com/docs) has been deployed on [Render](https://render.com/) as a Free Tier Web Service, the cold start might cause a delay in loading of the summary for the first use. Once the API becomes active, the summaries henceforth won't take as much long.
 
 ## Demo
 
