@@ -58,3 +58,9 @@ async def derail():
 async def get_summary_from_url(text: str):
     result = summarize(text)
     return {"result":result}
+
+@app.get("/keep-alive/")
+async def keep_alive():
+    statement = "Successfully activated the TLDW API!"
+    print(statement)
+    return statement
