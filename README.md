@@ -13,7 +13,7 @@ Here's the link : [Click Here](https://tldw07.netlify.app/)
 
 ## Output
 
-![error](https://i.postimg.cc/xTt2HkV1/tldwss.jpg)
+![image](https://github.com/user-attachments/assets/a1a0f927-29fb-49c6-850f-8a8ff39c3401)
 
 ## Tech Stack
 
